@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/inc/*.h'
   s.public_header_files = 'Classes/inc/*.h'
   s.frameworks = 'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security'
-  s.preserve_paths = 'Library/libbaidumapapi.a'
+  s.preserve_paths = 'libbaidumapapi.a'
   s.xcconfig = {'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/BaiduMapSDK/**"'}
 end
