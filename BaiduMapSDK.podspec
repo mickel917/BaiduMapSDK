@@ -15,7 +15,10 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "http://developer.baidu.com/map/sdk-ios.htm"
-  s.license          = 'MIT'
+  s.license      = {
+             :type => 'Copyright', 
+                    :text => 'LICENSE  ©2013 Baidu, Inc. All rights reserved.' 
+                        }
   s.author           = { "mickel" => "qzqiang917@gmail.com" }
   s.source           = { :git => 'https://github.com/mickel917/BaiduMapSDK.git', :tag => 'v2.3.0' }
 
