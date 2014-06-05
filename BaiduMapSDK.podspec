@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                     :text => 'LICENSE  ©2013 Baidu, Inc. All rights reserved.' 
                         }
   s.author           = { "mickel" => "qzqiang917@gmail.com" }
-  s.source           = { :git => 'https://github.com/mickel917/BaiduMapSDK.git', :tag => 'v2.3.0' }
+  s.source           = { :git => 'https://github.com/mickel917/BaiduMapSDK.git', :tag => '2.3.0' }
 
   s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
